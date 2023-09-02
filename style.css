@@ -1,1 +1,40 @@
+.header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
 
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.leiste {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    align-items: center;
+}
+
+.menue {
+    display: flex;
+    gap: 48px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero {
+    display: flex;
+    margin: 48px;
+}
+
+.hero-text {
+    flex-shrink: 0;
+}
+
+.hero-foto {
+}

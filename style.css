@@ -1,3 +1,7 @@
+body {
+    font-family: 'Roboto';
+}
+
 .header {
     background-color: #1F2937;
     display: flex;
@@ -76,4 +80,51 @@ button {
 p {
     margin: 0px;
     padding: 0px;
+}
+
+.inhalt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.ueberschrift-inhalt {
+    margin: 24px;
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.behaelter-kisten {
+    display: flex;
+}
+
+.kasten {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    margin: 20px;
+}
+
+.inhalt-foto {
+    display: flex;
+    height: 120px;
+    width: 120px;
+    flex-shrink: 1;
+    border-radius: 8px;
+    border: 4px;
+    border-color: #3882F6;
+    border-style: solid;
+}
+
+.inhalt-text {
+    display: flex;
+    height: 120px;
+    width: 120px;
+    justify-content: center;
+    font-size: 18px;
+    color: #1F2937;
 }

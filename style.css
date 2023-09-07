@@ -114,6 +114,7 @@ p {
     flex-direction: column;
     flex: 1;
     margin: 20px;
+    text-align: center;
 }
 
 .inhalt-foto {

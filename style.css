@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto';
+    font-family: "Roboto", sans-serif;
 }
 
 .header {
@@ -28,6 +28,11 @@ body {
     gap: 48px;
 }
 
+.groesse {
+    display: flex;
+    flex-direction: column;
+}
+
 a {
     text-decoration: none;
     color: #E5E7EB;
@@ -37,10 +42,12 @@ a {
 .hero {
     display: flex;
     justify-content: space-between;
-    margin-left: 200px;
-    margin-right: 200px;
+    background-color: #1F2937;
+    padding-left: 200px;
+    padding-right: 200px;
     gap: 100px;
     padding-bottom: 96px;
+    flex-basis: 25%;
 }
 
 .hero-text {
@@ -88,6 +95,7 @@ p {
     align-items: center;
     margin-left: 300px;
     margin-right: 300px;
+    flex-basis: 25%;
 }
 
 .ueberschrift-inhalt {
@@ -105,14 +113,13 @@ p {
     display: flex;
     flex-direction: column;
     flex: 1;
-    align-items: center;
     margin: 20px;
 }
 
 .inhalt-foto {
     display: flex;
-    height: 120px;
-    width: 120px;
+    height: 130px;
+    width: 130px;
     flex-shrink: 1;
     border-radius: 8px;
     border: 4px;
@@ -122,9 +129,64 @@ p {
 
 .inhalt-text {
     display: flex;
-    height: 120px;
-    width: 120px;
+    width: 130px;
     justify-content: center;
     font-size: 18px;
     color: #1F2937;
+}
+
+.zitat-kasten {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+    flex-basis: 25%;
+}
+
+.zitat-text {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.signatur {
+    font-weight: 900;
+    color: #1F2937;
+    font-size: 24px;
+    align-self: flex-end;
+}
+
+.action {
+    display: flex;
+    background-color: #3882F6;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    color:#E5E7EB;
+    border-radius: 8px;
+    flex-basis: 25%;
+    padding: 40px;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.action-titel {
+    font-weight: 900;
+}
+
+.action-button {
+    border: 2px solid #E5E7EB;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    color: #F9FAF8;
+    padding: 40px;
+    font-size: 18px;
 }
